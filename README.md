@@ -13,8 +13,8 @@ projects. Nannou is an open-source creative toolkit for
 
 ### Requirements
 You should have the following installed:
-- Rust [https://www.rust-lang.org]
-- Deno [https://deno.land]
+- (Rust)[https://www.rust-lang.org]
+- (Deno)[https://deno.land]
 
 ### Getting started
 
