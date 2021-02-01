@@ -1,15 +1,19 @@
 use nannou::prelude::*;
 
-struct Model {}
+struct Model {
+    _window: WindowId,
+}
 
 fn main() {
-    nannou::app(model).event(event).simple_window(view).run();
+    nannou::app(model).update(update).run();
 }
 
-fn model(_app: &App) -> Model {
-    Model {}
+fn model(app: &App) -> Model {
+    let _window = app.new_window().size(800, 800).view(view).build().unwrap();
+
+    Model { _window }
 }
 
-fn event(_app: &App, _model: &mut Model, _event: Event) {}
+fn update(_app: &App, _model: &mut Model, _update: Update) {}
 
 fn view(_app: &App, _model: &Model, _frame: Frame) {}
