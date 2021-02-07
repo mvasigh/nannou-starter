@@ -1,8 +1,6 @@
 ## `nannou-starter`
 
-A simple boilerplate for new [nannou](https://github.com/nannou-org/nannou)
-projects. Nannou is an open-source creative toolkit for
-[Rust](https://www.rust-lang.org/).
+A barebones boilerplate for new [nannou](https://github.com/nannou-org/nannou) projects. Nannou is an open-source creative toolkit for [Rust](https://www.rust-lang.org/).
 
 ### Helpful Links
 
